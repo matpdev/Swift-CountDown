@@ -13,6 +13,7 @@
 		BA3333302A9EBE8B00B5E5F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA33332F2A9EBE8B00B5E5F1 /* Preview Assets.xcassets */; };
 		BA3333322A9EBE8B00B5E5F1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3333312A9EBE8B00B5E5F1 /* Persistence.swift */; };
 		BA3333352A9EBE8B00B5E5F1 /* CountDownTimr.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA3333332A9EBE8B00B5E5F1 /* CountDownTimr.xcdatamodeld */; };
+		BA33333F2A9EC42A00B5E5F1 /* CounterDownTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA33333E2A9EC42A00B5E5F1 /* CounterDownTimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		BA33332F2A9EBE8B00B5E5F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA3333312A9EBE8B00B5E5F1 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		BA3333342A9EBE8B00B5E5F1 /* CountDownTimr.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CountDownTimr.xcdatamodel; sourceTree = "<group>"; };
+		BA33333E2A9EC42A00B5E5F1 /* CounterDownTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterDownTimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		BA3333272A9EBE8A00B5E5F1 /* CountDownTimr */ = {
 			isa = PBXGroup;
 			children = (
+				BA33333B2A9EC3E900B5E5F1 /* Source */,
 				BA3333282A9EBE8A00B5E5F1 /* CountDownTimrApp.swift */,
 				BA33332A2A9EBE8A00B5E5F1 /* ContentView.swift */,
 				BA33332C2A9EBE8B00B5E5F1 /* Assets.xcassets */,
@@ -71,6 +74,14 @@
 				BA33332F2A9EBE8B00B5E5F1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA33333B2A9EC3E900B5E5F1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BA33333E2A9EC42A00B5E5F1 /* CounterDownTimerView.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +156,7 @@
 			files = (
 				BA3333322A9EBE8B00B5E5F1 /* Persistence.swift in Sources */,
 				BA33332B2A9EBE8A00B5E5F1 /* ContentView.swift in Sources */,
+				BA33333F2A9EC42A00B5E5F1 /* CounterDownTimerView.swift in Sources */,
 				BA3333292A9EBE8A00B5E5F1 /* CountDownTimrApp.swift in Sources */,
 				BA3333352A9EBE8B00B5E5F1 /* CountDownTimr.xcdatamodeld in Sources */,
 			);
